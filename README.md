@@ -62,7 +62,7 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
 - une façon d'ecrire les ordres concise et rigoureuse. 
 
 ``` 
-  Exemple d'etapes 1 :
+  Exemple d'etapes 1 (mauvais algorithme) :
   1. Attraper et lever ma main droite jusqu'à camera
   2. stocker en memoire cette main sous le nom : mainDroite
   3. Reserver espace memoire pour un nombre sous le nom : nombreDeDoigts
@@ -71,12 +71,12 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
   6. Si nombre de doigt est 2, nombreDeDoigts = 2
   ...
   
-  Exemple d'etapes 2 (mieux) : 
+  Exemple d'etapes 2 (meilleur algorithme) : 
   1. Attraper et lever ma main droite jusqu'à camera
   2. stocker en memoire cette main sous le nom : mainDroite
   3. Reserver espace memoire pour un nombre sous le nom : nombreDeDoigts
   4. Ecrire en memoire que nombreDeDoigts est égale à 0
-  5. Regarder avec la camera chaque doigt l'un après l'autre en allant de droite à gauche
+  5. Regarder avec la camera chaque doigt de **mainDroite** l'un après l'autre en allant de droite à gauche
   6. A chaque doigt, ajouter 1 à la valeur de nombreDeDoigts
   7. Quand il n'y a plus de doigt vers la gauche, montrer nombreDeDoigts à l'ecran
   
@@ -100,8 +100,8 @@ Vos machines ont maintenant toutes un language commun :
 ``` 
 
 Exemple :
-  1. var bras = get('BrasDroit')
-  1. BrasDroit.leverMain()
+  1. var hand = getHand('right')
+  1. hand.leverMain()
   2. var N = 0
   3. Main.doigts.forEach(doigt) { N = N + 1 }
   4. console.log(N)
