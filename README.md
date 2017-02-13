@@ -40,7 +40,7 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
 
 - d'un but : une phrase que commence par "je veux que la machine"
 
-`
+```
    #### Exemples :
    * Je veux que la machine trouve du chocolat
    * Je veux que la machine compte mes doigts
