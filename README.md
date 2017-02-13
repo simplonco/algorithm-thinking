@@ -121,7 +121,39 @@ Exemple en anglais :
 
 ### Exercice 3 : FAIRE LE MEME EXERCICE POUR LA LISTE DE PLAT DU PROJET GERTRUDE
 
-Considérons un conteneur html vide (<div class="container plats"></div>) et un tableau de plats.
+Considérons un conteneur html vide :
+
+```
+<div class="container plats"></div>
+```
+et un tableau de plats
+```
+{
+ plats: [
+   {
+    id: 1,
+    nom: 'plat1',
+    description: 'blablabla 1',
+    price: '12€',
+    selected: 0
+   },
+   {
+    id: 2,
+    nom: 'plat2',
+    description: 'blablabla 2',
+    price: '15€',
+    selected: 0
+   },
+   {
+    id: 3,
+    nom: 'plat3',
+    description: 'blablabla 3',
+    price: '10€',
+    selected: 0
+   }
+ ]
+}
+```
 
 Insérez dans le conteneur html autant d'elements html qu'il y en a de plats dans le tableau. 
 
