@@ -25,14 +25,14 @@ Mais elle n'a aucune intelligence.
 
 Il va falloir tout lui écrire précisement dans le bonne ordre pour qu'elle puisse l'executer. 
 
-Cette machine a une mémoire. Elle peut y stocker tous ce que vous lui ordonner de stocker à chaque etape. Il faut donc lui ordonner de stocker le resultatde chaque action afin de pouvoir utiliser ce resultat à l'etape suivante.
+Cette machine a une mémoire. Elle peut y stocker tout ce que vous lui ordonner de stocker à chaque etape. Il faut donc lui ordonner de stocker le resultat de chaque action afin de pouvoir utiliser ce resultat à l'etape suivante.
 
 Imaginez donc les ordres que vous donneriez à cette machine pour qu'elle arrive à executer l'action désirée :
 
  * les actions pour arriver à executer l'action désirée
  * les sous-actions pour arriver à executer ces actions
  * etc... si besoin, on decoupe en plus petites étapes
- * et il faut lui dire de reserver de la mémoire puis de stocker dans cette espace les elements necessaires à l'étape suivante.
+ * et il faut lui dire de stocker en mémoire les elements necessaires à l'étape suivante.
  
 NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'importe quoi !
  
@@ -54,9 +54,9 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
 ``` 
    Exemples de description de machine :
    Ma machine a :
+   * une mémoire (par défaut)
    * une camera
    * un bras articulé
-   * une mémoire
 ``` 
 
 - une façon d'ecrire les ordres concise et rigoureuse. 
@@ -78,7 +78,7 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
   4. Ecrire en memoire que nombreDeDoigts est égale à 0
   5. Regarder avec la camera chaque doigt de **mainDroite** l'un après l'autre en allant de droite à gauche
   6. A chaque doigt, ajouter 1 à la valeur de nombreDeDoigts
-  7. Quand il n'y a plus de doigt vers la gauche, montrer nombreDeDoigts à l'ecran
+  7. Quand il n'y a plus de doigt vers la gauche, montrer la valeur de nombreDeDoigts à l'ecran
   
 ```
 
@@ -100,7 +100,7 @@ Vos machines ont maintenant toutes un language commun :
 ``` 
 
 Exemple en français :
-  1. var main = attrapeMain('droite')
+  1. var main = brasArticule.attrapeMain('droite')
   2. camera.regarde(main)
   3. var nombreTotalDoigts = 0 
   3. main.doigts.forEach(doigt) { nombreTotalDoigts = nombreTotalDoigts + 1 }
@@ -110,7 +110,7 @@ Exemple en français :
 
 ```
 Exemple en anglais :
-  1. var hand = getHand('right')
+  1. var hand = mechanicalArm.getHand('right')
   2. camera.lookAt(hand)
   3. var fingerTotal = 0 
   3. hand.fingers.forEach(finger) { fingerTotal = fingerTotal + 1 }
