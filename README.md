@@ -118,7 +118,17 @@ Exemple en anglais :
 
 ``` 
 
-### Exercice 3 : FAIRE LE MEME EXERCICE POUR LE PANIER DE GERTRUDE
+### Exercice 3 : FAIRE LE MEME EXERCICE POUR LA LISTE DE PLAT DU PROJET GERTRUDE
+
+Considérons un conteneur html vide (<div class="container plats"></div>) et un tableau de plats.
+
+Insérez dans le conteneur html autant d'elements html qu'il y en a de plats dans le tableau. 
+
+Chaque element html doit afficher le nom, la description, le prix d'un element html.
+
+Chaque element doit comprendre un bouton "ajouter" qui servira ulterieurement.
+
+### Exercice 4 : FAIRE LE MEME EXERCICE POUR LE PANIER DE GERTRUDE
 
  - Ecrire l'action : Ajouter au panier
  - Ecrire l'action : Supprimer du pannier
