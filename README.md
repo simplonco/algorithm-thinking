@@ -19,10 +19,17 @@ Comment penser code pour mieux écrire du code
 
 Imaginez une action simple que vous aimeriez faire executer à une machine. 
 
-Cette machine à tout ce qui faut pour le faire (des bras, des jambes, des yeux... à vous d'imaginer votre machine selon l'action que vous souhaitez lui faire éxécuter) sauf qu'elle n'a aucune intelligence. Il va falloir tout lui écrire précisement dans le bonne ordre pour qu'elle puisse l'executer. Cette machine a une très bonne mémoire. Elle peut y stocker toute sorte de chose et d'action.
+Cette machine posséde tout ce qui faut pour le faire (des bras, des jambes, des yeux... à vous d'imaginer votre machine selon l'action que vous souhaitez lui faire éxécuter).
 
-Imaginez donc les ordres que vous donneriez à cette machine pour qu'elle arrive à executer :
- * les actions pour arriver à executer l'action globale
+Mais elle n'a aucune intelligence. 
+
+Il va falloir tout lui écrire précisement dans le bonne ordre pour qu'elle puisse l'executer. 
+
+Néanmoins, cette machine a une très bonne mémoire. Elle peut y stocker tous ce que vous lui ordonner de stocker.
+
+Imaginez donc les ordres que vous donneriez à cette machine pour qu'elle arrive à executer l'action désirée :
+
+ * les actions pour arriver à executer l'action désirée
  * les sous-actions pour arriver à executer ces actions
  * etc... si besoin, on decoupe en plus petites étapes
  * et il faut lui dire de stocker tout ça dans sa memoire pour qu'elle puisse les executer de nouveau.
@@ -32,17 +39,21 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
 #### On a donc besoin :
 
 - d'un but : une phrase que commence par "je veux que la machine"
+
+`
+   #### Exemples :
+   * Je veux que la machine trouve du chocolat
+   * Je veux que la machine compte mes doigts
+   * Je veux que la machine cueille des pommes
+   * Je veux que la machine écrive "bonjour" sur mon clavier
+   * Je veux que la machine me reveille à 7h00
+```
+
 - une façon d'ecrire les ordres. Vos machines ont toutes en commun les capacités suivantes :
 
 
-#### Exemples :
-* Je veux que la machine trouve du chocolat
-* Je veux que la machine compte mes doigts
-* Je veux que la machine cueille des pommes
-* Je veux que la machine écrive "bonjour" sur mon clavier
-* Je veux que la machine me reveille à 7h00
 
-### Les règles
+#### Les règles
 
 - Chaque verbe ou action est une **function**
 - Chaque chose est un **object** (une string est un objet, un tableau est un objet)
