@@ -122,6 +122,7 @@ Exemple en anglais :
 
  - Ecrire l'action : Ajouter au panier
  - Ecrire l'action : Supprimer du pannier
+ 
 ——————
 
 ## Quelques références
