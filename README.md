@@ -130,3 +130,4 @@ http://silentteacher.toxicode.fr/
 https://www.kwyk.fr/algorithme/
 https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overview.htm
 http://www.geeksforgeeks.org/fundamentals-of-algorithms/
+https://pdf.k0nsl.org/C/Computer%20and%20Internet%20Collection/2015%20Computer%20and%20Internet%20Collection%20part%209/Packt%20Publishing%20Learning%20JavaScript%20Data%20Structures%20and%20Algorithms%20(2014).pdf
