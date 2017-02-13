@@ -99,16 +99,29 @@ Vos machines ont maintenant toutes un language commun :
 
 ``` 
 
-Exemple :
-  1. var hand = getHand('right')
-  1. hand.leverMain()
-  2. var N = 0
-  3. Main.doigts.forEach(doigt) { N = N + 1 }
-  4. console.log(N)
+Exemple en français :
+  1. var main = attrapeMain('droite')
+  2. camera.regarde(main)
+  3. var nombreTotalDoigts = 0 
+  3. main.doigts.forEach(doigt) { nombreTotalDoigts = nombreTotalDoigts + 1 }
+  4. console.log(nombreTotalDoigts)
 
 ``` 
 
-### Exercice 3 : FAITES VOTRE PROGRAMME EN NODEJS
+```
+Exemple en anglais :
+  1. var hand = getHand('right')
+  2. camera.lookAt(hand)
+  3. var fingerTotal = 0 
+  3. hand.fingers.forEach(finger) { fingerTotal = fingerTotal + 1 }
+  4. console.log(fingerTotal)
+
+``` 
+
+### Exercice 3 : FAIRE LE MEME EXERCICE POUR LE PANIER DE GERTRUDE
+
+ - Ecrire l'action : Ajouter au panier
+ - Ecrire l'action : Supprimer du pannier
 ——————
 
 ## Quelques références
