@@ -57,6 +57,7 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
    * une mémoire (par défaut)
    * une camera
    * un bras articulé
+   * un petit écran
 ``` 
 
 - une façon d'ecrire les ordres concise et rigoureuse. 
