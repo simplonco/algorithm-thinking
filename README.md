@@ -104,28 +104,28 @@ Vos machines ont maintenant toutes un language commun :
 
 Exemple : Pré-pseudo code
 
+------ 
 Executer la methode regarde de camera avec en parametre main
 camera.regarde(main)
-
+------
 Executer la fonction move pour la camera avec comme cible la main
 move(camera, main)
-
+------
 Je stocke les objets plus grand que mes lunettes sous le nom listeObjects
 ==>
 var listeObjects = recupererObjectsCacheur()
-
-
+------
 var move  = function (objet, cible) {
  ......
 }
-
+------
 var boite = getBox();
 var graines = recupererTouteLesGraines()
 
 pourChaqueGraineDans(graines) -> graine.bougeVers(boite)
+------
 
 checkHuman(cameraImage)
-
 
 ------
 
@@ -208,10 +208,10 @@ Chaque element doit comprendre un bouton "ajouter" qui servira ulterieurement.
 ——————
 
 ## Quelques références
-https://www.grafikart.fr/formations/apprendre-algorithmique/
-http://silentteacher.toxicode.fr/
-https://www.kwyk.fr/algorithme/
-https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overview.htm
-http://www.geeksforgeeks.org/fundamentals-of-algorithms/
-https://pdf.k0nsl.org/C/Computer%20and%20Internet%20Collection/2015%20Computer%20and%20Internet%20Collection%20part%209/Packt%20Publishing%20Learning%20JavaScript%20Data%20Structures%20and%20Algorithms%20(2014).pdf
-https://www.programiz.com/article/algorithm-programming
+* https://www.grafikart.fr/formations/apprendre-algorithmique/
+* http://silentteacher.toxicode.fr/
+* https://www.kwyk.fr/algorithme/
+* https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overview.htm
+* http://www.geeksforgeeks.org/fundamentals-of-algorithms/
+* https://pdf.k0nsl.org/C/Computer%20and%20Internet%20Collection/2015%20Computer%20and%20Internet%20Collection%20part%209/Packt%* 20Publishing%20Learning%20JavaScript%20Data%20Structures%20and%20Algorithms%20(2014).pdf
+* https://www.programiz.com/article/algorithm-programming
