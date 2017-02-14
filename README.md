@@ -100,6 +100,45 @@ Vos machines ont maintenant toutes un language commun :
 - Un groupe d'action peut être représenté par une **function**
 ``` 
 
+------------
+
+Exemple : Pré-pseudo code
+
+Executer la methode regarde de camera avec en parametre main
+camera.regarde(main)
+
+Executer la fonction move pour la camera avec comme cible la main
+move(camera, main)
+
+Je stocke les objets plus grand que mes lunettes sous le nom listeObjects
+==>
+var listeObjects = recupererObjectsCacheur()
+
+
+var move  = function (objet, cible) {
+ ......
+}
+
+var boite = getBox();
+var graines = recupererTouteLesGraines()
+
+pourChaqueGraineDans(graines) -> graine.bougeVers(boite)
+
+checkHuman(cameraImage)
+
+
+------
+
+var boxTemplate = getNetworkBoxTemplate()
+
+if exist(boxTemplate) 
+ alors suiteDesOrdre()
+else
+ stopExecutionDesOrdre()
+ alert('probleme de network')
+
+------
+
 Exemple en français :
   1. var main = brasArticule.attrapeMain('droite')
   2. camera.regarde(main)
