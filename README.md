@@ -136,8 +136,21 @@ if exist(boxTemplate)
 else
  stopExecutionDesOrdre()
  alert('probleme de network')
-
+ 
 ------
+
+// REVEIL DE FAUSTINO
+
+STEP1 
+waitFor (WeigthDetector.detetectBody() === true)
+STEP2 //body detected
+var wakeUpTime = calcultateWakUpTime(currentTime, +8)
+STEP3 
+waitFor (currentTime === wakeUpTime) // IL ATTEND QUE TE TEMPS PASSE
+STEP4 // currentTime === wakeUpTime
+ring()
+
+--------
 
 Exemple en français :
   1. var main = brasArticule.attrapeMain('droite')
