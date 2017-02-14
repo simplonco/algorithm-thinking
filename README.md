@@ -96,8 +96,8 @@ Vos machines ont maintenant toutes un language commun :
 - Chaque **object** que vous devez garder en mémoire devient une **variable**. On peut aussi dire qu'elle est stocké comme **variable**
 - Chaque **function** que vous devez garder en mémoire devient une **variable**. On peut aussi dire qu'elle est stocké comme **variable**
 - Chaque liste de chose ou collection de chose est un **array** (tableau)
-- Si vous devez executer une action sur chaque element d'un tableau, vous dite que vous executer une **loop** (boucle) sur ce tableau. A chaque itération, vous executez l'action sur l'element courant.
-
+- Si vous devez executer une action sur chaque element d'un tableau, vous dite que vous executer une **loop** (boucle, for, while, forEach, ...) sur ce tableau. A chaque itération, vous executez l'action sur l'element courant.
+- Un groupe d'action peut être représenté par une **function**
 ``` 
 
 Exemple en français :
