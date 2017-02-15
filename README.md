@@ -211,13 +211,31 @@ Insérez dans le conteneur html autant d'elements html qu'il y en a de plats dan
 
 Chaque element html doit afficher le nom, la description, le prix d'un element html.
 
-Chaque element doit comprendre un bouton "ajouter" qui servira ulterieurement.
+Chaque element doit comprendre un bouton "ajouter" qui servira ulterieurement.`
+
+#### Steps
+
+* RANDOM GROUPE DE 3 ! (random.org)
+* Faire un repo ou forker celui-là
+* Ecrire les etapes en pseudo-code dans le readme.md
+* Créer la page index.html et le fichier javascript
+* Ecrire le code javascript **en reprenant bien les noms de fonction du pseudo code**
+* "Push" votre travail sur le repo distant
+* Créer la github page et m'envoyer l'url
+
 
 ### Exercice 4 : FAIRE LE MEME EXERCICE POUR LE PANIER DE GERTRUDE
 
  - Ecrire l'action : Ajouter au panier
  - Ecrire l'action : Supprimer du pannier
- 
+
+#### Steps
+
+* Ecrire les etapes en pseudo-code de chaque action dans le readme.md
+* Ecrire le code javascript **en reprenant bien les noms de fonction du pseudo code**
+* "Push" votre travail sur le repo distant
+* m'envoyer l'url de la github page
+
 ——————
 
 ## Quelques références
