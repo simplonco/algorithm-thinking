@@ -38,7 +38,7 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
  
 #### On a donc besoin :
 
-- d'un but : une phrase que commence par "je veux que la machine"
+- d'un but : une phrase qui commence par "je veux que la machine"
 
 ``` 
    Exemples de but :
@@ -60,7 +60,7 @@ NB : pensez bien à décomposer les actions pour que la machine ne fasse pas n'i
    * un petit écran
 ``` 
 
-- une façon d'ecrire les ordres concise et rigoureuse. 
+- d'une façon d'ecrire les ordres concise et rigoureuse. 
 
 ``` 
   Exemple d'etapes 1 (mauvais algorithme) :
