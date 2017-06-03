@@ -19,7 +19,7 @@ Comment penser code pour mieux écrire du code
 
 Imaginez une action simple que vous aimeriez faire executer à une machine. 
 
-Cette machine posséde tout ce qui faut pour le faire (des bras, des jambes, des yeux... à vous d'imaginer votre machine selon l'action que vous souhaitez lui faire éxécuter).
+Cette machine posséde tout ce qu'il faut pour le faire (des bras, des jambes, des yeux...). À vous d'imaginer votre machine selon l'action que vous souhaitez lui faire éxécuter).
 
 Mais elle n'a aucune intelligence. 
 
